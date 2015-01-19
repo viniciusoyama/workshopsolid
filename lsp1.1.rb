@@ -6,6 +6,7 @@ class Rectangle < Shape
   attr_accessor :height, :width
 end
 
+
 class Square < Rectangle
   def width=(value)
     super
@@ -17,7 +18,6 @@ class Square < Rectangle
     self.width=value
   end
 end
-
 
 # Bind methods to user actions and rerender the view
 class UIInteractor
