@@ -1,3 +1,4 @@
+// SEM DIP
 public class Copier {
   public copy() {
     Char c;
@@ -9,7 +10,7 @@ public class Copier {
   }
 }
   
-//
+// COM DIP
 public class Copier {
   public Copier(IReader reader, IWriter writer) {
     this.reader = reader;
@@ -25,6 +26,4 @@ public class Copier {
   }
 }
 
-// Bem mais claro.. suponha que tenho um modulo de copiadora. Nesse modulo que eu definiria as interfaces e poderia compilar ele.
-// Qualquer outro app que utilizar só precisa implementar a interface
 // Low level depending on abstractions
