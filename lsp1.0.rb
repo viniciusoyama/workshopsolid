@@ -1,8 +1,9 @@
-class Rectangle
+class Shape
   attr_accessor :id # fills automagicallly
 end
 
 class Rectangle < Shape
+  attr_accessor :id # fills automagicallly
   attr_accessor :height, :width
 end
 

@@ -1,4 +1,4 @@
-class Rectangle
+class Shape
   attr_accessor :id # fills automagicallly
 end
 
